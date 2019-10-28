@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		/*all*/
+		html,body,div,h1,h2,h3,h4,h5,h6,ul,li,p{padding:0; margin: 0; font-size: 14px; color:#666; list-style: none;}
+		.b_bottom{border-bottom: 1px solid #ddd;}
+		.pt-15{padding-top:15px;}
+		.pb-15{padding-bottom: 15px;}
+		.c-333{ color:#333;}
+		.c-666{color:#666;}
+		.c-999{color:#999}
+		
+		/*content*/
+		.content{ width:1200px; margin: 50px auto; border:1px solid #ddd; padding:0 40px; box-sizing: border-box;}
+		.content h1.title{ text-align: center; font-size: 25px;}
+		.information{display: flex; display: -webkit-flex;}
+		.inf_flex{ flex:1; -webkit-flex: 1;}
+		.inf_title{ font-weight: bold; width:50px; display: inline-block;}
+		.project ul li{line-height: 30px;}
+		
+		
+	</style>
+	<body>
+		<div class="content">
+			<h1 class="title b_bottom pb-15 pt-15">个人简历</h1>
+			<div class="information b_bottom pb-15 pt-15">
+                <div class="inf_flex"><label class="inf_title c-333">姓名：</label><span>张三</span></div>
+                <div class="inf_flex"><label class="inf_title c-333">手机：</label><span>18600000000</span></div>
+                <div class="inf_flex"><label class="inf_title c-333">邮箱：</label><span>joinefe@baidu.com</span></div>
+			</div>
+			<div class="information b_bottom pb-15 pt-15">
+                <div class="inf_flex"><label class="inf_title c-333">性别：</label><span>男</span></div>
+                <div class="inf_flex"><label class="inf_title c-333">学历：</label><span>本科</span></div>
+                <div class="inf_flex"><label class="inf_title c-333">籍贯：</label><span>东莞</span></div>
+			</div>
+			<div class="project b_bottom">
+				<h3 class=" pt-15 c-333">项目经验：</h3>
+				<ul>
+					<li class="b_bottom pt-15 pb-15">
+						<label><b>1、支付宝项目</b></label>
+						<p>我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进；</p>
+						<p class="c-999">项目时间：2017.1-2017.8</p>
+					</li>
+					<li class="pt-15 pb-15">
+						<label><b>2、百度项目</b></label>
+						<p>我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进；</p>
+						<p class="c-999">项目时间：2017.1-2017.8</p>
+					</li>
+				</ul>
+			</div>
+			<div class="project">
+				<h3 class=" pt-15 c-333">学习经历：</h3>
+				<ul>
+					<li class="b_bottom pt-15 pb-15">
+						<label><b>2017/03/25——2018/08/03　东莞学院</b></label>
+						<p>我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进；</p>
+					</li>
+					<li class="b_bottom pt-15 pb-15">
+						<label><b>2017/03/25——2018/08/03　东莞学院</b></label>
+						<p>我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进我是枯叶进进；</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
